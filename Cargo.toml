@@ -1,0 +1,13 @@
+[package]
+name = "swiss-sol"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bs58 = "0.5.1"
+clap = { version = "4.5.35", features = ["derive", "env"] }
+solana-client = "2.2.7"
+solana-pubkey = "2.2.1"
+solana-signature = "2.2.1"
+solana-transaction-status = "2.2.7"
+thiserror = "2.0.12"
